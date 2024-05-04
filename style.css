@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #FFFFFF;
+    --card-background-color: #FAFAF9;
+    --border-color: #E5EAF0;
+    --span-background-color: #E6D6FC;
+    --title-color: #20293A;
+    --paragraph-color: #6C727F;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 415px;
+    height: 440px;
+    background-color: var(--card-background-color);
+    border-radius: 10px;
+    padding: 0px 23px;
+    box-shadow: 0px 0px 30px 1.5px var(--border-color);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card span {
+    font-size: 0.665rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 6px 19px;
+    border-radius: 35px;
+    background-color: var(--span-background-color);
+    color: #883AE1;
+    margin-top: 15px;
+}
+
+.card article {
+    margin-top: 18px;
+}
+
+.card article h1 {
+    font-size: 1.195rem;
+    font-weight: 650;
+    color: var(--title-color);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.card article p {
+    font-size: 0.885rem;
+    font-weight: 350;
+    line-height: 1.6em;
+    letter-spacing: 0.5px;
+    word-spacing: 0.4px;
+    color: var(--paragraph-color);
+}
+
+.card article hr {
+    border: 0.9px solid var(--border-color);
+    margin: 20px 0px;
+    color: var(--border-color);
+}
+
+.card article cite {
+    font-size: 0.75rem;
+    font-style: normal;
+    color: var(--paragraph-color);
+    text-transform: capitalize;
+}

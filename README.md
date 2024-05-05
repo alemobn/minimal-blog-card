@@ -3,7 +3,7 @@
 ![Demo](screenshots/demo.jpg)
 
 ## Live site:
-* This is a [live preview](https://just-ale.github.io/devchallenges-01)
+* This is a [live preview](https://alemobn.github.io/devChallenges_01)
 
 ## Build with:
 * HTML

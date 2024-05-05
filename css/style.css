@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
 }
 
 :root {
-    --background-color: #FFFFFF;
-    --card-background-color: #FAFAF9;
+    --background-color: #FAFAF9;
+    --card-background-color: #FFFFFF;
     --border-color: #E5EAF0;
     --span-background-color: #E6D6FC;
     --title-color: #20293A;
     --paragraph-color: #6C727F;
+    --radius: 16px;
 }
 
 body {
-    font-family: 'Sora', sans-serif;
     background-color: var(--background-color);
     display: flex;
     align-items: center;
@@ -28,17 +29,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width: 415px;
-    height: 440px;
+    width: 385px;
+    height: 415px;
     background-color: var(--card-background-color);
-    border-radius: 10px;
+    border-radius: var(--radius);
     padding: 0px 23px;
     box-shadow: 0px 0px 30px 1.5px var(--border-color);
+    margin-bottom: 75px;
 }
 
 .card img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: var(--radius);
 }
 
 .card span {
@@ -74,9 +76,8 @@ body {
 }
 
 .card article hr {
-    border: 0.9px solid var(--border-color);
+    border: 1px solid var(--border-color);
     margin: 20px 0px;
-    color: var(--border-color);
 }
 
 .card article cite {

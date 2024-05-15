@@ -8,6 +8,7 @@
 ## Build with:
 * HTML
 * CSS
+    * Flexbox
 
 ## About & Features:
 * Frontend

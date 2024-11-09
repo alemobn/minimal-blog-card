@@ -1,11 +1,12 @@
-# Minimal Blog Card
-![Demo](screenshots/demo.jpg)
+![Demo](docs/demo.png)
 
 ## Build with
-* HTML
-* CSS
-    * Flexbox
+
+- HTML
+- CSS
+    - Flexbox
 
 ## About & Features
-* Frontend
-* [Challenge (*devchallenges.io*)](https://devchallenges.io/challenge/minimal-blog-card)
+
+- Frontend
+- [Challenge (*devchallenges.io*)](https://devchallenges.io/challenge/minimal-blog-card)
